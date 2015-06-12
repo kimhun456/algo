@@ -96,7 +96,11 @@ int main(){
     
     DFS(0,0);
 
+    t2 = clock();
+    
     printf("%d\n",min);
+
+    printf("Time : %.3fs\n",(double)(t2 - t1)/CLOCKS_PER_SEC);
 
     return 0;
 }
